@@ -315,16 +315,23 @@ hr {
 }
 
 blockquote {
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 1.75em 0 1.75em -2.2em;
-    padding: 0 0 0 1.75em;
-    border-left: #424242 0.4em solid;
+  background: rgba(250,250,250,0.4);
+  border-top: 1px dashed #ccc;
+  border-bottom: 1px dashed #ccc;
+  margin: 1.5em 10px;
+  padding: 1.5em 30px;
+  quotes: "\201C""\201D""\2018""\2019";
 }
-
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
 blockquote p {
-    margin: 0.8em 0;
-    font-style: italic;
+  display: inline;
 }
 
 blockquote small {
