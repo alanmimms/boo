@@ -10,6 +10,13 @@
 
     $document.ready(function () {
 
+
+	$('a[href^=http]').each(function(){
+	    if(this.href.indexOf(location.hostname) < 0) {
+		$(this).attr({target: '_blank'});
+	    }
+	});
+
         var $postContent = $(".post-content");
         $postContent.fitVids();
 
