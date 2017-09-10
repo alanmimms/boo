@@ -565,7 +565,7 @@ button {
     position: relative;
     z-index: 10;
     min-height: 100%;
-    background: #fff;
+    background: #f6f0e9;
     -webkit-transition: -webkit-transform 0.5s ease;
             transition: transform 0.5s ease;
 }
