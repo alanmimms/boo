@@ -619,6 +619,10 @@ body.nav-opened .site-wrapper {
     margin: 0 0 30px 0;
 }
 
+body.page-template header.no-cover nav.main-nav {
+  background: #a7a79f;
+}
+
 .main-nav a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
